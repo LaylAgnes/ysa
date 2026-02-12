@@ -144,7 +144,7 @@ section {
 .hero-section {
     position: relative;
     min-height: 100vh;
-    background: url('img.jpg') center center / cover no-repeat;
+    background: url('../image/img.jpg') center center / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -190,20 +190,21 @@ section {
 #hero-particles {
     position: absolute;
     inset: 0;
-    z-index: 0;
+    z-index: 3;
 }
 
 .hero-overlay {
-    z-index: 1;
+    z-index: 4;
 }
 
 .hero-content {
-    z-index: 2;
+    z-index: 5;
 }
 
 #hero-particles canvas {
     position: absolute !important;
     inset: 0;
+    z-index: 6;
 }
 
 
@@ -244,7 +245,7 @@ section {
     width: 350px;
     height: 350px;
 
-    background: url('flor.png') no-repeat center;
+    background: url('../image/flor.png') no-repeat center;
     background-size: contain;
 
     right: -80px;
@@ -273,7 +274,7 @@ section {
     width: 350px;
     height: 350px;
 
-    background: url('flor.png') no-repeat center;
+    background: url('../image/flor.png') no-repeat center;
     background-size: contain;
 
     left: -80px;
@@ -545,7 +546,7 @@ footer {
 
     /* ===== LOGO ===== */
     .navbar-brand {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
         letter-spacing: 0.5px;
         line-height: 1.2;
     }
@@ -595,3 +596,5 @@ footer {
     }
 
 }
+
+

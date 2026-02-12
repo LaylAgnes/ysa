@@ -78,7 +78,7 @@ window.addEventListener("DOMContentLoaded", () => {
         fullScreen: { enable: false },
         background: { color: "transparent" },
         particles: {
-            number: { value: 20 },
+            number: { value: 50 },
             color: { value: "#9A31BB" },
             size: { value: { min: 1, max: 2 } },
             opacity: {
